@@ -2,7 +2,6 @@
 #Script que calcula o fatoria de um número
   
 
-
 def fact1(n):
     assert n >= 0 
     
@@ -10,6 +9,7 @@ def fact1(n):
     for i in range(1,n+1): 
         f = f * i 
     return f
+
 
 def fact2(n):
     assert n >= 0 
@@ -29,21 +29,12 @@ def fatorial(n):
         f = 1 
     return f 
 
-def fatorial(n):
 
-    assert n >= 0 
-
-    if(n>0):
-        f = n*fatorial(n-1)
-    else:
-        f = 1 
-    return f 
-    
 
 
 def main():
     for i in range(0,20):
-        print('Fatorial de '+str(i) +' é ' + str(fact1(i)) + ', e também deve ser '+ str(fatorial(i)))
+        print('Fatorial de '+str(i) +' é ' + str(fact1(i)) + ', e também deve ser '+ str(fatorial(i)) + ', e ' + str(fact2(i)))
 
 
 
