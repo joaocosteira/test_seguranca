@@ -1,2 +1,2 @@
 # test_seguranca
-Teste para o trabalho 2 de seguranca
+Exemplo de utilização do sonarqube no github.
