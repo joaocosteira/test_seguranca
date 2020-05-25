@@ -1,2 +1,2 @@
 # test_seguranca
-Exemplo de utilização do sonarqube no github. Ola
+Exemplo de utilização do sonarqube no github.
